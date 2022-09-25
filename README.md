@@ -31,10 +31,6 @@ L1 contract is deployed on [Görli Testnet](https://goerli.net/). Gateway is hos
 
 Any ENS second-level domain (e.g. pps.eth) owners can choose to migrate into the L2 Public Registry & Resolver by:
 
-## Screenshots
-
-
-
 1. set resolver of the second-level domain to **L1 Offchain Resolver: 0xF9CF7Bf515DB6657A632d185ae9B8A1643004496**
 2. use the `moveIn` method provided by the L2 Public Registry to setup ownership for ENS records update on L2
 
@@ -43,3 +39,9 @@ Any ENS second-level domain (e.g. pps.eth) owners can choose to migrate into the
 For demo purpose, we've migrated `pps.eth` to `L1 Offchain Resolver`. We've also set a few ENS records with `L2 Public Resolver` for `3n4.pps.eth`. You can check the records live on: https://app.ens.domains/name/3n4.pps.eth/details
 
 Live demo: https://peeps.onl/3n4
+
+
+
+## Screenshots
+
+- 
