@@ -1,0 +1,47 @@
+body {
+  font-family: "Titillium Web";
+  font-weight: 600;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #fafcfe !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+blockquote {
+  margin: 1rem 10px;
+  padding: 0.5em 10px;
+  background: inherit;
+  color: #0E0F34;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  font-weight: bold;
+}
+
+blockquote::before {
+  margin-right: 0.25em;
+  color: #0E0F34;
+  content: "\201C";
+  vertical-align: -0.4em;
+  font-size: 2em;
+  line-height: 0.1em;
+}
+
+.SnackbarItem-contentRoot {
+  box-shadow: 0 8px 16px 0 rgb(145 158 171 / 16%) !important;
+  color: #0E0F34 !important;
+  background-color: white !important;
+}
+.SnackbarItem-variantSuccess {
+  /* box-shadow: 0 8px 16px 0 rgb(84 214 44 / 24%) !important; */
+}
+.SnackbarItem-variantSuccess .MuiSvgIcon-root {
+  color: #54D62C !important;
+}
+.SnackbarItem-variantError .MuiSvgIcon-root {
+  color: #FF4842 !important;
+}

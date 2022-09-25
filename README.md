@@ -1,4 +1,4 @@
-# ENS Layer2 Support - hackmoney2022
+# ENS Layer2 Support
 
 This project implements ENS Layer2 Support outlined in [ENS Layer2 and offchain data support](https://docs.ens.domains/dapp-developer-guide/ens-l2-offchain) with [zkSync](https://zksync.io/).
 
@@ -19,4 +19,5 @@ Any ENS second-level domain (e.g. pps.eth) owners can choose to migrate into the
 ## Demo
 
 For demo purpose, we've migrated `pps.eth` to `L1 Offchain Resolver`. We've also set a few ENS records with `L2 Public Resolver` for `3n4.pps.eth`. You can check the records live on: https://app.ens.domains/name/3n4.pps.eth/details
- 
+
+Live demo: https://peeps.onl/3n4
